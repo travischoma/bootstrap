@@ -23,6 +23,7 @@
   tbody&.in { display: table-row-group; }
 }
 
+@media(max-width: 991px) {
 .collapsing {
   position: relative;
   height: 0;
@@ -30,4 +31,5 @@
   .transition-property(~"height, visibility");
   .transition-duration(.35s);
   .transition-timing-function(ease);
+}
 }
